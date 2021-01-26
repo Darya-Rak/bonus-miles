@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        float amount=4000F;
-        float percent=0.2F;
-        float bonus= amount * percent;
+        int price=4000;
+        int amount=20;
+        int bonus= price/amount;
         System.out.println(bonus);
     }
 }
